@@ -29,7 +29,7 @@ The Calculator Backend is a RESTful API that provides the necessary endpoints to
 
 4. Install the dependencies: `pip install -r requirements.txt`
 
-### OBS : Already let the migrations with everything you will need to run the project, so you can jump the step 5
+### OBS : Already let the migrations with everything you will need to run the project, so you can skip the step 5
 5. Run the Migrations on Django: 
     - `python manage.py makemigrations`
     - `python manage.py migrate`
