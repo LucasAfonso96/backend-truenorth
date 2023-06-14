@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  calculator_backend:
+    build:
+      context: ./calculator_backend
+      dockerfile: Dockerfile
+    ports:
+      - '8000:8000'
+    volumes:
+      - ./calculator_backend:/app
